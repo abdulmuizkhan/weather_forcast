@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+* {
+  box-sizing: border-box;
+}
+.back{
+    height: 100vh;
+    width: 100%;
+    background-image: url("cover_3.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 300px;
+    width: 190px;
+    background-color: rgb(255, 255, 255,0.6);
+    margin: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    
+    transition:height 0.6s,width 0.6s;
+    transition-timing-function: ease-in-out;
+}
+.box:hover{
+    background-color: rgb(255, 255, 255);
+    height: 320px; 
+    width: 210px;  
+   
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Day{
+    margin: 5px;
+}
+.location{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    height: 40px;
+    width: 150px;
+    margin: 1px;
+    padding: 1px;
+}
+
+#date{
+    margin: 2px;
+}
+.temp{
+    margin: 15px;
+}
+.minmax{
+     margin-top: 30px;
+}
+
