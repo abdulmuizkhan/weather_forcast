@@ -107,7 +107,29 @@
 </div>
 <!-- ------------------footer--------------------------------- -->        
         </div>
-        <script >
+        <script src="weather.js" ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDRTqJAoskH0Ts9bFmtIkfBJcwQ1sNrip4",
+    authDomain: "weather-app-318419.firebaseapp.com",
+    projectId: "weather-app-318419",
+    storageBucket: "weather-app-318419.appspot.com",
+    messagingSenderId: "301069103693",
+    appId: "1:301069103693:web:cf53b7c9252017d9882204",
+    measurementId: "G-JDQ7G2X6ZZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 </body>
 </html>
