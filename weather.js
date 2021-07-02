@@ -6,10 +6,10 @@ const url = (city) =>
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
 const url1=(city) =>
-     `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikeynew}&q=${city}&language=en-us&details=true`;
+     `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikeynew}&q=${city}&language=en-us&details=true`;
 
 const weatherurl=(code)=> 
-       `http://dataservice.accuweather.com/currentconditions/v1/${code}?apikey=${apikeynew}&details=true`;
+       `https://dataservice.accuweather.com/currentconditions/v1/${code}?apikey=${apikeynew}&details=true`;
 
     
  
