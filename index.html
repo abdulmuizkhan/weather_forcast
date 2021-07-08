@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body onload=displaytime(); id="body">
+    
+        <div class="back">
+         <form id="form">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search by location"
+                autocomplete="off"
+            />
+        </form>
+         <div class="date"> </div>
+         <div class="time"> </div>
+         <div class="box side1">
+
+               <div class="wind">
+                     <img src="OIP.jfif" height="37px" width="37px" style="margin:3px">
+                     <p id="wind">Wind Speed:<br>18 km/hr</p>
+               </div>
+               <div class="wind"><img src="OIP2.jfif" height="37px" width="37px" style="margin:3px">
+                  <p id="humidity">HUmidity:<br>25</p></div>
+               <div class="wind"> <img src="images1.jfif" height="37px" width="37px" style="margin:3px">
+                  <p id="vis">
+                     Visibility:16 km</p></div>
+               <div class="wind">
+                  <img src="download1.png" height="37px" width="37px" style="margin:3px">
+                     <p id="feel">Feels Like:37°C</p></div>
+              
+         </div>
+         <div class="arrow">
+      </div>
+         <div class="box">
+            <div class="Day"><p id="day1">Yesterday</p></div>
+             <div class="icon">
+              
+             </div>
+             <div class="cond">
+             </div>
+
+             <div class="location">
+                <h2 class="info"></h2>
+                <h1 class="temp"></h1>
+                <h3 class="minmax">23 | 85 </h3>
+             </div>
+        </div>
+        <div class="box def" id="boxm">
+         <div class="Day"><p id="day2">Today</p></div>
+          <div class="icon">
+             <i class="fas fa-cloud" style="color: rgb(22, 21, 21);font-size: 40px;"></i>
+          </div>
+          <div class="cond">
+         </div>
+          <div class="location">
+             <h2 class="info"><i class="fas fa-map-marker-alt"></i>Akola,MH</h2>
+             
+             <h1 class="temp"></h1>
+             <h3 class="minmax">23 | 85 </h3>
+          </div>
+     </div>
+     <div class="box">
+   
+      <div class="Day"><div class="day">Tomorrow</div></div>
+       <div class="icon">
+         <i class="fas fa-cloud-sun" style="color: rgb(226, 92, 39);font-size: 40px;" ></i>
+       </div>
+       <div class="cond">
+      </div>
+       <div class="location">
+          <h2 class="info"><i class="fas fa-map-marker-alt"></i>Akola,MH</h2>
+          
+          <h1 class="temp"></h1>
+          <h3 class="minmax">23 | 85 </h3>
+       </div>
+  </div>
+  <div class="box side2">
+   
+</div>
+<!-- ------------------footer--------------------------------- -->
+  
+<div class="nextdays">
+<div class="nbox"> <div class="day">FRI</div>
+      <div class="nico""><img src="download.png" height="40px" width="50px"  ></div>
+      <div class="ntemp">23°C</div>
+</div>
+<div class="nbox"><div class="day">FRI</div>
+      <div class="nico" "><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div class="ntemp">23°C</div>
+</div>
+<div class="nbox"><div class="day">FRI</div>
+      <div class="nico""><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div class="ntemp">23°C</div>
+</div>
+
+<!-- <div class="nbox"><div>FRI</div>
+      <div style="height: 40px;width: 50px;"><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div>23°C</div>
+</div>
+<div class="nbox"><div>FRI</div>
+      <div style="height: 40px;width: 50px;"><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div>23°C</div>
+</div>
+<div class="nbox"><div>FRI</div>
+      <div style="height: 40px;width: 50px;"><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div>23°C</div>
+</div>
+<div class="nbox"><div>FRI</div>
+      <div style="height: 40px;width: 50px;"><img src="cloudy.jpg" height="40px" width="50px" ></div>
+      <div>23°C</div>
+</div> -->
+</div>
+<!-- ------------------footer--------------------------------- -->        
+        </div>
+        <div id="content>
+            <div id="loading"></div>
+                  <div id="isItLoaded"></div>
+                </div>  
+        <script src="weather.js"></script>
+        
+</body>
+</html>
