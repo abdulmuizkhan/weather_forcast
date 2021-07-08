@@ -13,7 +13,7 @@ const weatherurl=(code)=>
        `https://dataservice.accuweather.com/currentconditions/v1/${code}?apikey=${apikeynew}&details=true`;
 
 const forcasturl=(code)=>
-        `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${code}?apikey=${apikeynew}&details=true`
+        `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${code}?apikey=${apikeynew}&details=true`
  
 
 async function getWeatherByLocation(city) {
